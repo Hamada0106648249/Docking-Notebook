@@ -1,0 +1,18 @@
+Docking co-ordinates for Human ABL1 kinase crystal structure PDB ID: 3QRK
+
+X= 19.793
+y= 22.314
+z= 10.792
+
+Docking co-ordinates for Human DNA quadruplex crystal structure PDB ID: 2MS6
+
+X= -9.924
+y= -1.466
+z= -2.947
+
+Grid box dimensions for bot targets:
+
+x= 20 A
+y= 20 A
+z= 20 A
+
