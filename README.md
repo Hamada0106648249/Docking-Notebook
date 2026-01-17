@@ -24,8 +24,14 @@ The primary educational objective is to broaden access to professional-style com
   - RCSB structure page: https://www.rcsb.org/structure/3QRK
   **Human DNA quadrplex** crystal structure **PDB ID: 2MS6**
 
+## How to determine the co-ordinates of the grid box (the binding site)?
+After opening the pdb file of the target in PyMOL software, you first select the co-crystallized ligand by left clicking it, 
+then in the command line box inside PyMOL type the following command: centerofmass sel. The coordinates in x, y, and z will be typed in the commands screen.
+The used grid box size was 20 A in all coordinates
+
 ## Quick Start (Open in Colab)
 Google Colab is a hosted Jupyter Notebook service that runs Python in the browser and requires no local setup.  
 
 - Notebook 1: [https://research.google.com/colaboratory/faq.html](https://colab.research.google.com/drive/1b9VI6F2KvFQqBiOB-K9LzVWONBPhlpM8?usp=sharing)
 - Botebook 2: https://colab.research.google.com/drive/182t3vELC7Gkt-2ke79ASKkCUBbNivlP9
+
