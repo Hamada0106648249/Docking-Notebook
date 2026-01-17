@@ -22,7 +22,10 @@ The primary educational objective is to broaden access to professional-style com
 ### Recommended educational demo target
 - **Human ABL1 kinase** crystal structure **PDB ID: 3QRK** (ligand-bound; useful for teaching binding-site definition).
   - RCSB structure page: https://www.rcsb.org/structure/3QRK
+  **Human DNA quadrplex** crystal structure **PDB ID: 2MS6**
 
 ## Quick Start (Open in Colab)
 Google Colab is a hosted Jupyter Notebook service that runs Python in the browser and requires no local setup.  
-- Colab FAQ: https://research.google.com/colaboratory/faq.html
+
+- Notebook 1: [https://research.google.com/colaboratory/faq.html](https://colab.research.google.com/drive/1b9VI6F2KvFQqBiOB-K9LzVWONBPhlpM8?usp=sharing)
+- Botebook 2: https://colab.research.google.com/drive/182t3vELC7Gkt-2ke79ASKkCUBbNivlP9
