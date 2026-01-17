@@ -1,0 +1,6 @@
+SMILES code of 9DP (the co-crystallized ligand in ABl1):
+Clc1cccc(c1Cl)NC(=O)Nc4cc(nn4c2ccc3c(c2)CC(C(=O)O)NC3)C(C)(C)C
+
+
+SMILES code of QUE (the co-crystallized ligand in human DNA quadruplex):
+O=C1c3c(OC(=C1O)c2ccc(O)c(O)c2)cc(O)cc3O
