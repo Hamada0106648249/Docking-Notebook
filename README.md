@@ -1,0 +1,28 @@
+# Vibe-Coded Docking in Google Colab (AutoDock Vina)  
+Install-free molecular docking notebooks for teaching medicinal chemistry, computational chemistry, and pharmacy students.
+
+## Overview
+This repository provides two Google Colab notebooks that enable molecular docking directly in a web browser—without requiring local installation of docking software. The notebooks were developed using a **vibe-coding** methodology (prompt-driven code generation with iterative debugging in ChatGPT), combined with **human verification** and reproducibility-oriented checkpoints.
+
+The primary educational objective is to broaden access to professional-style computational experiments for learners with limited coding experience, while maintaining scientific transparency through parameter control and output validation.
+
+## What’s Included
+### Notebooks
+1. **Notebook 1 — Single-Ligand Docking (SMILES → 3D → Docking)**
+   - Dock a single ligand (SMILES input) into a single receptor (PDB input)
+   - pH-aware ligand and receptor preparation (Open Babel)
+   - Automated docking box estimation from a co-crystallized ligand (when present)
+   - Student-adjustable docking parameters (grid center/size, exhaustiveness, poses, verbosity, seed)
+
+2. **Notebook 2 — Library Docking (SMILES list → batch docking)**
+   - Dock a **library** of compounds (SMILES file) into a single receptor
+   - Parallel ligand preparation + Vina batch docking
+   - Export ranked screening results (CSV) + ZIP archive of pose files
+
+### Recommended educational demo target
+- **Human ABL1 kinase** crystal structure **PDB ID: 3QRK** (ligand-bound; useful for teaching binding-site definition).
+  - RCSB structure page: https://www.rcsb.org/structure/3QRK
+
+## Quick Start (Open in Colab)
+Google Colab is a hosted Jupyter Notebook service that runs Python in the browser and requires no local setup.  
+- Colab FAQ: https://research.google.com/colaboratory/faq.html
